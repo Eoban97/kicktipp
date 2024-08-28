@@ -1,14 +1,13 @@
 # kicktipp
-Entwicklung einer Kicktipp App für den Kurs App Entwicklung mit Android SoSe-2024 an der Hochschule für Wirtschaft und Recht im Sommersemester 2024
+Dies ist eine Kicktipp-App, entwickelt im Rahmen des Kurses App-Entwicklung mit Android im Sommersemester 2024 an der Hochschule für Wirtschaft und Recht.
 
-Der endgültige Programmcode befindet sichim Main-Branch
+Der finale Programmcode ist im Main-Branch zu finden.
 
-Aufgrund von Arbeitsspeicherproblemen ist das Tippspiel auf 2 Spiele pro Spieltag und insgesamt 5 Spieltage reduziert. 
+Hinweis: Aufgrund von Arbeitsspeicherbeschränkungen ist das Tippspiel auf 2 Spiele pro Spieltag und insgesamt 5 Spieltage begrenzt. Diese Einschränkungen sollten jedoch ausreichen, um die Funktionalität der Applikation umfassend zu testen.
 
-Dies sollte reichen, um die Funktionalität der Applikation abzuprüfen.
+Punktevergabe:
 
-Es gibt 2 Punkte für das richtigen Tippen des Siegers, bzw. Unentschieden.
+- 2 Punkte für das richtige Tippen des Siegers oder eines Unentschiedens.
+- 4 Punkte für das exakte Ergebnis.
 
-Bei Tippen des exakten Ergebnisses erhält der Spieler 4 Punkte.
-
-Viel Spaß!
+Viel Spaß beim Tippen!
