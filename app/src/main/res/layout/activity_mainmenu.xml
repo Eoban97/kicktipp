@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Username and League Name Row -->
+    <TextView
+        android:id="@+id/username_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:textSize="16sp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/league_name_text_view"
+        app:layout_constraintTop_toTopOf="@+id/league_name_text_view"
+        app:layout_constraintBottom_toBottomOf="@+id/league_name_text_view"
+        app:layout_constraintHorizontal_chainStyle="spread" />
+
+    <TextView
+        android:id="@+id/league_name_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="League Name"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:textSize="16sp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toEndOf="@+id/username_text_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/username_text_view"
+        app:layout_constraintHorizontal_chainStyle="spread" />
+
+    <!-- Other Views -->
+    <ImageView
+        android:id="@+id/zweite_bundesliga_image_view"
+        android:layout_width="0dp"
+        android:layout_height="139dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/___bundesliga_logo_brandlogos_net_qkaphyew6"
+        app:layout_constraintBottom_toTopOf="@+id/tipp_results_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/league_name_text_view"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/___bundesliga_logo_brandlogos_net_qkaphyew6" />
+
+    <Button
+        android:id="@+id/tipp_results_button"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="20dp"
+        android:text="Ergebnisse Tippen!"
+        app:layout_constraintBottom_toTopOf="@+id/view_league_table_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zweite_bundesliga_image_view" />
+
+    <Button
+        android:id="@+id/view_league_table_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="20dp"
+        android:text="Ligatabelle"
+        app:layout_constraintBottom_toTopOf="@+id/vaildate_results_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tipp_results_button" />
+
+    <Button
+        android:id="@+id/vaildate_results_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="137dp"
+        android:text="Ergebnisse Eintragen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_league_table_button" />
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="15dp"
+        android:text="Log Out"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
